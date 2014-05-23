@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/jquery.treegrid.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.0.min.js"></script>
+    <script src="Scripts/jquery.treegrid.js"></script>
+    <script src="Scripts/jquery.treegrid.bootstrap3.js"></script>
+    <script>
+        $(function () {
+            $(".tree").treegrid();
+        });
+    </script>
+</head>
+<body>
+    <table class="table tree">
+        <tr class="treegrid-1">
+            <td>Root </td>
+        </tr>
+        <tr class="treegrid-2 treegrid-parent-1">
+            <td> Apple</td>
+        </tr>
+        <tr class="treegrid-3 treegrid-parent-2">
+            <td>  iPhone5s</td>
+        </tr>
+        <tr class="treegrid-4 treegrid-parent-2">
+            <td>iPadMini</td>
+        </tr>
+        <tr class="treegrid-5 treegrid-parent-1">
+            <td> HTC</td>
+        </tr>
+        <tr class="treegrid-6 treegrid-parent-5">
+            <td> NewOne</td>
+        </tr>
+        <tr class="treegrid-7 treegrid-parent-1">
+            <td> Nokia </td>
+        </tr>
+        <tr class="treegrid-8 treegrid-parent-7">
+            <td> Lumia620 </td>
+        </tr>
+        <tr class="treegrid-9 treegrid-parent-7">
+            <td> Lumia920</td>
+        </tr>
+        <tr class="treegrid-10">
+            <td>Root 2</td>
+        </tr>
+        <tr class="treegrid-11 treegrid-parent-10">
+            <td> Samesung</td>
+        </tr>
+    </table>
+</body>
+
+</html>
